@@ -12,10 +12,10 @@ variables:
   azureSubscription: 'ddab85cd-ab19-4f7b-bd69-dd165c86ec61'
 
   # Web app name
-  webAppName: 'fiap'
+  webAppName: 'fiap-trabalho'
 
   # Environment name
-  environmentName: 'fiap'
+  environmentName: 'fiap-trabalho'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
@@ -57,7 +57,7 @@ stages:
         deploy:
           steps:
           - task: AzureRmWebAppDeployment@4
-            displayName: 'Azure App Service Deploy: fiap'
+            displayName: 'Azure App Service Deploy: fiap-trabalho'
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
