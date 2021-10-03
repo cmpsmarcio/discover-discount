@@ -14,8 +14,8 @@ const Input = styled.input.attrs({
   border-left: 3px solid #324bd6;
 
   :read-only {
-    border-left: 3px solid #960202;
-    background-color: #f5e2e2;
+    border-left: 3px solid #420068;
+    background-color: #e7c1f3;
   }
 `
 

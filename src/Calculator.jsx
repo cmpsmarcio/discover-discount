@@ -25,7 +25,7 @@ export default function Calculator() {
   
   return (
     <Form onSubmit={e => handleSubmit(e)}>
-      <h1>Descubra percentual de desconto</h1>
+      <h1>Calcular percentual de desconto</h1>
       <Label htmlFor="fullValue">Digite o valor integral</Label>
       <Input id="fullValue" onChange={e => handleChange(e)} required></Input>
       <Label htmlFor="partValue">Digite o valor com desconto</Label>
